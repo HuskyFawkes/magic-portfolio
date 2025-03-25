@@ -13,7 +13,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -55,7 +55,7 @@ const home = {
   headline: <>Product Designer and researcher</>,
   subline: (
     <>
-      Hi! my name is Rodrigo Alano <InlineCode>FLY</InlineCode>, where I craft intuitive
+      Hi! I'm Rodrigo Alano and work at <InlineCode>eduCAT</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -96,13 +96,16 @@ const about = {
         role: "Product Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designing intuitive and scalable user experiences for educational platforms used by millions of students 
+            nationwide.  
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Leading user research initiatives, optimizing mobile and web interfaces, and establishing 
+            research operations to drive data-informed design decisions.
           </>,
+          <>
+          Contributing to design system evolution, ensuring consistency and accessibility across products.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -116,64 +119,70 @@ const about = {
       },
       {
         company: "Rhitmo Tecnologia",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        timeframe: "2023 - 2024",
+        role: "Product Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Specializing in B2B digital products, improving user experience and interface design across 
+            multiple industries.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Leading end-to-end design cycles, from user research and journey 
+            mapping to high-fidelity prototyping in Figma.
           </>,
+          <>
+          Collaborating with cross-functional teams 
+          (POs, developers, stakeholders) to align business goals with strategic UX solutions.
+          </>
         ],
         images: [],
       },
       {
         company: "Parafuzo",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        timeframe: "2022 - 2023",
+        role: "Product Designer Jr.",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Enhancing platform usability through user-centered design solutions.  
+            
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Spearheading the creation of new features and leading projects aligned with the design system.
           </>,
+          <>
+          Ensuring pixel-perfect execution while optimizing workflows for scalability and efficiency.
+          </>
         ],
         images: [],
       },
       {
         company: "VPA Infra",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        timeframe: "2022 - 2022",
+        role: "Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Versatile Product Designer focused on internal software optimization, driving usability 
+            improvements and enhancing interface design.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed content strategies for social media, 
+            contributing to record-breaking engagement and brand growth.
           </>,
         ],
         images: [],
       },
       {
         company: "Recebe Aqui",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        timeframe: "2020 - 2022",
+        role: "UX/UI Designer intership",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Hands-on experience in UX/UI design and front-end development, contributing to app enhancements 
+            and feature implementation that expanded the company's user base.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Designed new functionalities, optimized mobile interfaces, and developed content 
+            strategies for social media engagement.
           </>,
         ],
         images: [],
@@ -185,12 +194,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "UEMG - Universidade do Estado de Minas Gerais",
+        description: <>Product Design.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "uni-BH",
+        description: <>Computer Science.</>,
       },
     ],
   },
@@ -200,17 +209,17 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Adesign system management, prototyping, UI design</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/cover-06.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/cover-07.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -218,12 +227,12 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "User Research",
+        description: <>interviews, usability testing, surveys User Flows & Journey Mapping</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/cover-08.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
