@@ -191,7 +191,7 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
         name: "UEMG - Universidade do Estado de Minas Gerais",
