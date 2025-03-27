@@ -22,8 +22,9 @@ export async function generateMetadata() {
       description: "Portfolio website showcasing my work.",
       url: baseURL,
       siteName: `${person.firstName}'s Portfolio`,
-      locale: "en_US",
+      locale: "pt_BR",
       type: "website",
+      image:  "/images/projects/project-01/avatar-06.jpg",
     },
     robots: {
       index: true,
