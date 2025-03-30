@@ -56,7 +56,7 @@ const home = {
   subline: (
     <>
       Hi! I'm Rodrigo Alano and work at <InlineCode>eduCAT</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      <br /> user experiences. Crafting Thoughtful & Impactful Digital Experiences.
     </>
   ),
 };
