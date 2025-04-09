@@ -37,6 +37,7 @@ export async function generateMetadata() {
     },
   };
 }
+<Analytics />
 
 export default function Home() {
   return (
