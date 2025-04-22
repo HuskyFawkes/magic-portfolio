@@ -66,13 +66,22 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
               {content?.trim() && (
                 <SmartLink
                   suffixIcon="arrowRight"
-                  style={{ margin: "0", width: "fit-content" }}
+                  style={{ 
+                    margin: "0", 
+                    width: "fit-content",
+                    padding: "8px 16px",
+                    backgroundColor: "var(--brand-on-background-weak)",
+                    borderRadius: "4px",
+                    transition: "background-color 0.2s ease",
+                    textDecoration: "none",
+                    cursor: "pointer"
+                  }}
                   href={href}
                 >
-                  <Text variant="body-default-s">Read case study</Text>
+                  <Text variant="body-default-s">View project</Text>
                 </SmartLink>
               )}
-              {link && (
+              {/* {link && (
                 <SmartLink
                   suffixIcon="arrowUpRightFromSquare"
                   style={{ margin: "0", width: "fit-content" }}
@@ -80,7 +89,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                 >
                   <Text variant="body-default-s">View project</Text>
                 </SmartLink>
-              )}
+              )} */}
             </Flex>
           </Column>
         )}
