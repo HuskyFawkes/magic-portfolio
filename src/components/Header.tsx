@@ -9,6 +9,8 @@ import styles from "@/components/Header.module.scss";
 import { routes, display } from "@/app/resources";
 import { person, home, about, blog, work, gallery } from "@/app/resources/content";
 
+import { ThemeToggle } from "@/components/ThemeToggle";
+
 type TimeDisplayProps = {
   timeZone: string;
   locale?: string; // Optionally allow locale, defaulting to 'en-GB'
@@ -109,7 +111,7 @@ export const Header = () => {
                   />
                 </>
               )}
-              {/* {routes["/blog"] && (
+              {routes["/blog"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -125,7 +127,7 @@ export const Header = () => {
                     selected={pathname.startsWith("/blog")}
                   />
                 </>
-              )} */}
+              )}
               {routes["/gallery"] && (
                 <>
                   <ToggleButton
@@ -141,6 +143,12 @@ export const Header = () => {
                     href="/gallery"
                     selected={pathname.startsWith("/gallery")}
                   />
+                </>
+              )}
+              {display.themeSwitcher && (
+                <>
+                  <Line background="neutral-alpha-medium" vert maxHeight="24" />
+                  <ThemeToggle />
                 </>
               )}
             </Flex>
