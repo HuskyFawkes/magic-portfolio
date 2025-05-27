@@ -55,7 +55,7 @@ const home = {
   headline: <>Product Designer and researcher</>,
   subline: (
     <>
-      Hi! I'm Rodrigo Alano and work at <InlineCode>eduCAT</InlineCode>, where I craft intuitive
+      Hi! I'm Rodrigo Alano and I work at <InlineCode>eduCAT</InlineCode>, where I craft intuitive
       <br /> user experiences. Crafting Thoughtful & Impactful Digital Experiences.
     </>
   ),
@@ -209,7 +209,7 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Adesign system management, prototyping, UI design</>,
+        description: <>A design system management, prototyping, UI design</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -242,6 +242,7 @@ const about = {
     ],
   },
 };
+
 
 const blog = {
   label: "Blog",

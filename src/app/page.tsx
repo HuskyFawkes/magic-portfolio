@@ -97,9 +97,14 @@ export default function Home() {
           </RevealFx>
         </Column>
       </Column>
-      <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[1, 1]} />
-      </RevealFx>
+      <Column maxWidth="m" gap="l" horizontal="center">
+        <RevealFx translateY="16" delay={0.5}>
+          <Heading variant="display-strong-s" color="neutral-strong">Real projects designed for real people</Heading>
+        </RevealFx>
+        <RevealFx translateY="16" delay={0.6}>
+          <Projects range={[1, 1]} />
+        </RevealFx>
+      </Column>
       {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
           <Flex flex={1} paddingLeft="l">

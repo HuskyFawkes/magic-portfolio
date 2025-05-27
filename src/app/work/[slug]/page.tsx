@@ -103,6 +103,7 @@ export default function Project({ params }: WorkParams) {
         <Button href="/work" variant="tertiary" weight="default" size="s" prefixIcon="chevronLeft">
           Projects
         </Button>
+        <Heading variant="display-strong-s" color="neutral-strong">Real projects designed for real people</Heading>
         <Heading variant="display-strong-s">{post.metadata.title}</Heading>
       </Column>
       {post.metadata.images.length > 0 && (
