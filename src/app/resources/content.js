@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://calendar.google.com/calendar/embed?src=a6730114183d3ced8baad2444a2b1755574abe9af750d26db1015c0a910092ae%40group.calendar.google.com&ctz=America%2FSao_Paulo",
+    link: "https://calendar.google.com/calendar/u/0?cid=ZGU2YTI1YmJmYmE2NzlhMjdiNDdmNzAyYjA4YTdhZDM1OWU4NGJjOTEyMjhhNWNiYzY4ZDdkOTA2ZDMwZGZkOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
   },
   intro: {
     display: true,
