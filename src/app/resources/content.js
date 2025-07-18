@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://calendar.google.com/calendar/u/0?cid=ZGU2YTI1YmJmYmE2NzlhMjdiNDdmNzAyYjA4YTdhZDM1OWU4NGJjOTEyMjhhNWNiYzY4ZDdkOTA2ZDMwZGZkOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+    link: "https://calendly.com/rodrigoalano01/new-meeting",
   },
   intro: {
     display: true,
